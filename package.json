@@ -4,17 +4,22 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "set node_env=development node server.js",
-    "start": "set node_env=production node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
   },
   "engines": {
     "node": "18.15.0",
     "npm": "9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
