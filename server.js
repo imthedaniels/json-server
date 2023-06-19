@@ -3,7 +3,7 @@ const compression = require('compression');
 const path = require('path');
 
 const server = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 
 const DIST_DIR = path.join(__dirname, '../dist');
 const HTML_FILE = path.join(DIST_DIR, 'index.html');
