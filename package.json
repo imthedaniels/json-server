@@ -1,0 +1,16 @@
+{
+  "name": "dados-alura-geek",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "set node_env=development node server.js",
+    "start": "set node_env=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

@@ -1,0 +1,148 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "categoria": "Star Wars",
+        "descricao": "Caneca Stormtrooper",
+        "nome": "Caneca Stormtrooper",
+        "preco": "R$ 60,00",
+        "url": "./img/Caneca-stormtrooper.svg"
+      },
+      {
+        "id": 2,
+        "categoria": "Star Wars",
+        "descricao": "Lego Darth Vader",
+        "nome": "Lego Darth Vader",
+        "preco": "R$ 60,00",
+        "url": "./img/Lego-darth-vader.svg"
+      },
+      {
+        "id": 3,
+        "categoria": "Star Wars",
+        "descricao": "Boneco Yoda",
+        "nome": "Boneco Yoda",
+        "preco": "R$ 60,00",
+        "url": "./img/Boneco-yoda.svg"
+      },
+      {
+        "id": 4,
+        "categoria": "Star Wars",
+        "descricao": "Stormtrooper",
+        "nome": "Stormtrooper",
+        "preco": "R$ 60,00",
+        "url": "./img/Stormtrooper.svg"
+      },
+      {
+        "id": 5,
+        "categoria": "Star Wars",
+        "descricao": "Baby Yoda",
+        "nome": "Baby Yoda",
+        "preco": "R$ 60,00",
+        "url": "./img/Baby-yoda.svg"
+      },
+      {
+        "id": 6,
+        "categoria": "Star Wars",
+        "descricao": "Kylo Ren",
+        "nome": "Kylo Ren",
+        "preco": "R$ 60,00",
+        "url": "./img/Kylo-ren.svg"
+      },
+      {
+        "id": 7,
+        "categoria": "Consoles",
+        "descricao": "Joystick Xbox Series S",
+        "nome": "Joystick Xbox Series S",
+        "preco": "R$ 60,00",
+        "url": "./img/Xbox.svg"
+      },
+      {
+        "id": 8,
+        "categoria": "Consoles",
+        "descricao": "PS 5",
+        "nome": "PS 5",
+        "preco": "R$ 60,00",
+        "url": "./img/Ps5.svg"
+      },
+      {
+        "id": 9,
+        "categoria": "Consoles",
+        "descricao": "Nintendo",
+        "nome": "Nintendo",
+        "preco": "R$ 60,00",
+        "url": "./img/Nintendo.svg"
+      },
+      {
+        "id": 10,
+        "categoria": "Consoles",
+        "descricao": "Nintendo Switch",
+        "nome": "Nintendo Switch",
+        "preco": "R$ 60,00",
+        "url": "./img/Switch.svg"
+      },
+      {
+        "id": 11,
+        "categoria": "Consoles",
+        "descricao": "Xbox Series S",
+        "nome": "Xbox Series S",
+        "preco": "R$ 60,00",
+        "url": "./img/Console-xbox.svg"
+      },
+      {
+        "id": 12,
+        "categoria": "Consoles",
+        "descricao": "Game Boy Color",
+        "nome": "Game Boy Color",
+        "preco": "R$ 60,00",
+        "url": "./img/Game-boy.svg"
+      },
+      {
+        "id": 13,
+        "categoria": "Diversos",
+        "descricao": "Camisa Atari",
+        "nome": "Camisa Atari",
+        "preco": "R$ 60,00",
+        "url": "./img/Camisa-atari.svg"
+      },
+      {
+        "id": 14,
+        "categoria": "Diversos",
+        "descricao": "Camisa SNES",
+        "nome": "Camisa SNES",
+        "preco": "R$ 60,00",
+        "url": "./img/Camisa-snes.svg"
+      },
+      {
+        "id": 15,
+        "categoria": "Diversos",
+        "descricao": "Boneco SOnic",
+        "nome": "Boneco Sonic",
+        "preco": "R$ 60,00",
+        "url": "./img/Boneco-sonic.svg"
+      },
+      {
+        "id": 16,
+        "categoria": "Diversos",
+        "descricao": "Relógio",
+        "nome": "Relógio",
+        "preco": "R$ 60,00",
+        "url": "./img/relogio.svg"
+      },
+      {
+        "id": 17,
+        "categoria": "Diversos",
+        "descricao": "Óculus Rift",
+        "nome": "Óculus Rift",
+        "preco": "R$ 60,00",
+        "url": "./img/Oculus-rift.svg"
+      },
+      {
+        "id": 18,
+        "categoria": "Diversos",
+        "descricao": "Pelúcia do Pikachu",
+        "nome": "Pelúcia Pikachu",
+        "preco": "R$ 60,00",
+        "url": "./img/Pikachu.svg"
+      }
+    ]
+  }
