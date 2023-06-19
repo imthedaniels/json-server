@@ -12,5 +12,9 @@
   "description": "",
   "dependencies": {
     "json-server": "^0.17.3"
+  },
+  "engines": {
+    "node": "18.15.0",
+    "npm": "9.5.0"
   }
 }
