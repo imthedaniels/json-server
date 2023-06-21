@@ -17,19 +17,10 @@ server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
 })
 
-async function headers() {
-  return [
-    {
-      // matching all API routes
-      source: '/:path*',
-      headers: [
-        { key: 'Access-Control-Allow-Credentials', value: 'true' },
-        { key: 'Access-Control-Allow-Origin', value: '*' },
-        { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
-        { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization' },
-      ],
-    },
-  ];
-}
-headers();
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT, DELETE");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  next();
+})
 
