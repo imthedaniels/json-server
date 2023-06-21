@@ -16,3 +16,24 @@ const PORT = 8000
 server.listen(PORT, () => {
   console.log(`JSON Server is running on http://localhost:${PORT}`)
 })
+
+module.exports = {
+  trailingSlash: false,
+  async headers() {
+    return [
+      {
+        // matching all API routes
+        source: '/:path*',
+        headers: [
+          { key: 'Access-Control-Allow-Credentials', value: 'true' },
+          { key: 'Access-Control-Allow-Origin', value: 'https://alura-geek-alexxgoomes.vercel.app' },
+          { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
+          { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization' },
+        ],
+      },
+    ];
+  },
+  async redirects() {
+    return [];
+  }
+};
