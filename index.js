@@ -5,6 +5,22 @@ const path = require('path')
 const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
+const corsOpts = {
+  origin: '*',
+
+  methods: [
+    'GET',
+    'POST',
+    'PUT'
+  ],
+
+  allowedHeaders: [
+    'Content-Type'
+  ]
+}
+
+server.use(cors(corsOpts))
+
 
 server.use(cors())
 server.use((req, res, next) => {
